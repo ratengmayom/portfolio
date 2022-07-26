@@ -1,0 +1,130 @@
+/*General website ri=ules*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../images/background-image.jpeg");
+}
+a{
+    color: #112d4e;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+.profile-small{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+}
+.profile-small:hover{
+    border: 5px solid  white;
+}
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #f9f7f7;
+    margin: 1px;
+    font-size: 20px;
+    height:fit-content;
+    background-color:  rgb(0, 8, 121);
+    border-radius: 10px;
+}
+.header:hover{
+    border:5px solid black
+}
+/* Include padding and border in total box size*/
+* {
+  box-sizing: border-box;
+}
+/*Header for Projects*/
+.section-heading {
+    text-align: center;
+    color:rgb(44, 102, 6);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-size-adjust: initial;
+    font-display: optional;
+}
+
+/* Create two equal columns that float next to each other */
+.column-2 {
+  width: 100%;
+  padding: 40px;
+  height:fit-content;
+  margin:1px;
+  background-color: #0004fe94;
+  line-height:2;
+  border-radius: 10px;
+}
+/* Sizing for Project Containers  */
+
+.column-4{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    margin: 20px;
+  }
+  /* Color and Images for Project Containers  */
+  
+  .project-1 {
+    background-color: rgb(77, 243, 11);
+   
+  }
+  
+  .project-2 {
+    background-color:white;
+  }
+  
+  .project-3 {
+    background-color:#209BFF;
+  }
+  
+  .project-4 {
+    background-color:#20ff02;
+  }
+  
+  .project-5 {
+    background-color:#F9F7F7;
+  }
+  
+  .project-6 {
+    background-color:#209BFF;
+  } 
+.project-text {
+  text-align:center;
+  font-size:fit-box;
+}
+.project-1:hover{
+border: 5px solid black;
+border-radius: 10px;
+}
+.project-2:hover{
+ border: 5px solid black;
+border-radius: 10px;
+    }
+.project-3:hover{
+        border: 5px solid black;
+        border-radius: 10px;
+        }
+.project-4:hover{
+            border: 5px solid black;
+            border-radius: 10px;
+            }   
+.project-5:hover{
+                border: 5px solid black;
+                border-radius: 10px;
+                }                
+.project-6:hover{
+                    border: 5px solid black;
+                    border-radius: 10px;
+                    }
